@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Duty Change Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+        h1 {
+            color: darkblue;
+            font-size: 28px;
+        }
+        form {
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 15px;
+        }
+        input[type="text"], input[type="date"], textarea {
+            width: 100%;
+            padding: 6px;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: darkblue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+ 
+<h1>Duty Change Form</h1>
+ 
+<form action="mailto:phrh808@gmail.com" method="POST" enctype="text/plain">
+    <label>Name of Staff Requesting Duty:</label>
+    <input type="text" name="Requesting Staff Name">
+ 
+    <label>Staff Number:</label>
+    <input type="text" name="Requesting Staff Number">
+ 
+    <label>Present Duty:</label>
+    <label>Date:</label>
+    <input type="date" name="Requesting Present Duty Date">
+    <label>Day:</label>
+    <input type="text" name="Requesting Present Duty Day">
+    <label>Shift:</label>
+    <input type="text" name="Requesting Present Duty Shift">
+ 
+    <label>New Duty:</label>
+    <label>Date:</label>
+    <input type="date" name="Requesting New Duty Date">
+    <label>Day:</label>
+    <input type="text" name="Requesting New Duty Day">
+    <label>Shift:</label>
+    <input type="text" name="Requesting New Duty Shift">
+ 
+    <label>Staff Accepting Duty Change:</label>
+    <input type="text" name="Accepting Staff Name">
+ 
+    <label>Staff Number:</label>
+    <input type="text" name="Accepting Staff Number">
+ 
+    <label>Present Duty:</label>
+    <label>Date:</label>
+    <input type="date" name="Accepting Present Duty Date">
+    <label>Day:</label>
+    <input type="text" name="Accepting Present Duty Day">
+    <label>Shift:</label>
+    <input type="text" name="Accepting Present Duty Shift">
+ 
+    <label>New Duty:</label>
+    <label>Date:</label>
+    <input type="date" name="Accepting New Duty Date">
+    <label>Day:</label>
+    <input type="text" name="Accepting New Duty Day">
+    <label>Shift:</label>
+    <input type="text" name="Accepting New Duty Shift">
+ 
+    <label>Comments:</label>
+    <textarea name="Comments" rows="4"></textarea>
+ 
+    <button type="submit">Send</button>
+</form>
+ 
+</body>
+</html>
+ 
